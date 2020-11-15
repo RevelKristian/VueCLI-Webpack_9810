@@ -39,16 +39,31 @@ export default {
 	data() {
 		return {
 			items: [
-				{ title: "Dashboard", to: "/" },
-				{ title: "GD", to: "/gd" },
-				{ title: "UGD", to: "/ugd"},
-			],
-		};
-	},
+				{
+                    title : "Dashboard",
+                    to : "/"
+                },
+                {
+                    title: "GD",
+                    to : "/gd"
+                },
+                {
+                    title: "UGD",
+                    to: "/ugd",
+                },
+                {
+                    title: "Tugas",
+                    to: "/tgs",
+                }
+            ],
+        };
+    },
 };
 </script>
+
 <style scoped>
-.fullheight {
-	min-height: 100vh !important;
-}
+    .fullheight
+    {
+        min-height : 100vh !important;
+    }
 </style>
